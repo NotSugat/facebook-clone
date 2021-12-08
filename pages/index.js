@@ -10,7 +10,7 @@ export default function Home({ providers }) {
   if (!session) return <Login providers={providers} />
 
   return (
-    <div className=''>
+    <div className='bg-gray-100'>
       <Head>
         <title>Facebook</title>
         <link rel='icon' href='/favicon.ico' />
